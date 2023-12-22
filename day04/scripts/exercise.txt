@@ -1,0 +1,8 @@
+exercise
+- write a menu driven program with following menus
+  - 1. check if the entered path exissts
+  - 2. check if the entered path is a file or directory
+  - 3. check if the entered path is a readable and writable and executable
+  - 4. copy a file from source to destination
+  - 5. move a file from source to destination
+  - 6. exit
