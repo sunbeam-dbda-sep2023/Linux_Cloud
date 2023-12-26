@@ -1,0 +1,21 @@
+exercise 1
+- create a VPC: 172.16.0.0/16
+- create two subnets
+  - subnet1: 172.16.1.0/24
+  - subnet2: 172.16.2.0/24
+- create an internet gateway
+- add a route 0.0.0.0/0 in route table
+- create an ec2 instnace in subnet1 and subnet2
+- enable ICMP from both ec2 instances'es security group
+- ping from ec2 instance 1 to ec2 instance 2 using private IP
+
+# check the processes running
+> ps -aux
+
+# check if a port is available
+> lsof -i :<port>
+> lsof -i :4000
+
+# kill a process
+> kill <pid>
+

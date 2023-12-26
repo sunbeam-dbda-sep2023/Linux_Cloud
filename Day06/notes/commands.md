@@ -181,7 +181,7 @@ app.run(host="0.0.0.0", port=4000, debug=True)
 > tar -xvf ui.tar
 
 # install required packages
-> pip3 install numpy pandas scikit-learn
+> pip3 install numpy pandas scikit-learn pickle5==1.3.1 flask
 
 # start the application
 > cd ui
